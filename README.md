@@ -73,7 +73,7 @@
 
 Рассмотрев таюлицу, её данные и графики, а также изучив лекцию, я сделала вывод, что необходимое количество эпох обучения зависит от значений bias(смещение) и weights(вес). Нижеприведённый код является подтверждением данной гипотезы :
 
-double DotProductBias(double[] v1, double[] v2) 
+`double DotProductBias(double[] v1, double[] v2) 
 	{
 		if (v1 == null || v2 == null)
 			return -1;
@@ -97,7 +97,7 @@ double DotProductBias(double[] v1, double[] v2)
 		double dp = DotProductBias(weights,ts[i].input);
 		if(dp > 0) return(1);
 		return (0);
-	}
+	}`
   
 ## Задание 3
 
